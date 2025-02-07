@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="box-1" style="background-color: rgb(146, 214, 77); width: 1340px; height: 50px;">
+            <a href="{% url 'Home' %}"><h4 style="font-family: 'Times New Roman'; position: absolute; top: 5px; left: 45px;"> Home </h4></a>
+            <a href="{% url 'Toys for girls' %}"><h4 style="font-family: 'Times New Roman'; position: absolute; top: 5px; left: 150px;"> Toy for girls </h4></a>
+            <a href="{% url 'Toys for boys' %}"><h4 style="font-family: 'Times New Roman'; position: absolute; top: 5px; left: 290px;"> Toy for boys </h4></a>
+            <a href="{% url 'Contact' %}"><h4 style="font-family: 'Times New Roman'; position: absolute; top: 5px; left: 430px;"> Contact </h4></a>
+            <h4 style="font-family: 'Times New Roman'; position: absolute; top: 5px; left: 1200px;"> Catalog </h4>
+            <div class="box-3" style="background-color: aliceblue; width: 400px; height: 30px; position: absolute; top: 20px; left: 600px;"></div>
+            <h4 style="font-family: 'Times New Roman'; position: absolute; top: 5px; left: 750px;">Search the toys</h4>
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="box-2" style="background-color: rgb(150, 202, 245); width: 1340px; height: 350px;">
+            <img src="{% static '81cKZ70EdmL.jpg' %}" alt="" width="300px" height="300px" style="position: absolute; bottom: 220px; left: 50px;">
+            <h1 style="font-family: 'Gill Sans'; position: absolute; top: 65px; left: 600px;">Light Fairy Fashion Doll</h1>
+            <h3 style="font-family: 'Courier New'; position: absolute; top: 140px; left: 400px;">The 3-inch game-inspired doll, Light Fairy,comes with nine mix-and-match fashions, and the fairy wings become a wearable ring!</h3>
+            <div class="box-4" style="background-color: rgb(49, 123, 153); width: 300px; height: 100px; position: absolute; top: 250px; left: 450px;">
+                <h2 style="font-family: 'Gill Sans'; position: absolute; top:20px; left: 75px;">Add to catalog</h2>
+            </div>
+            <h3 style="font-family: 'Courier New'; position: absolute; top: 290px; left: 900px;">Instock:3</h3>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="box-5" style="background-color: rgb(104, 204, 101); width: 1340px; height: 350px;">
+            <img src="{% static 's-l300.jpg'%}" alt="" width="350px" height="300px" style="position: absolute; top: 440px; right: 50px;">
+            <h1 style="font-family: 'Gill Sans'; position: absolute; top: 420px; right: 700px;">Dark Fairy doll</h1>
+            <h3 style="font-family: 'Courier New'; position: absolute; top: 500px; left: 20px;">Royale High Deluxe Figure Dark Fairy Fashion Dollcomes with 9 mix-and-match</h3>
+            <h3 style="font-family: 'Courier New'; position: absolute; top: 530px; left: 20px;">fashions, and the fairy wing become a wearable ring!</h3>
+            <div class="box-6" style="background-color: rgb(30, 109, 41); width: 300px; height: 100px; position: absolute; top: 620px; left: 150px;">
+                <h2 style="font-family: 'Gill Sans'; position: absolute; top:20px; left: 75px;">Add to catalog</h2>
+            </div>
+            <h3 style="font-family: 'Courier New'; position: absolute; top: 650px; left: 600px;">Instock:5</h3>
+        </div>
+        <div class="container-fluid">
+            <div class="box-7" style="background-color: rgb(255, 179, 251); width: 1340px; height: 600px;">
+                <h1 style="font-family: 'Times New Roman'; position: absolute; top: 750px; left: 550px;"> Upcoming toys in articles! </h1>
+                <img src="{% static 'the-first-look-at-the-new-royale-high-fashion-dolls-v0-f0ujlxe6guxc1.webp' %}" alt="" width="400px" style="position: absolute; top: 800px; left: 50px;">
+
+                <img src="{% static '1719647355_youloveit_com_royal_high_mermia_fashion_doll.webp' %}" alt="" width="200px" height="200px" style="position: absolute; top: 830px; left: 600px;">
+                <h4 style="font-family: Arial; position: absolute; top: 1020px; left: 610px;"> Water Fairy Fashion Doll </h4>
+                <img src="{% static '1719647477_youloveit_com_royale_high_posey_the_nature_fairy_fashion_doll2.webp' %}" alt="" width="200px" height="200px" style="position: absolute; top: 830px; left: 950px;">
+                <h4 style="font-family: Arial; position: absolute; top: 1020px; left: 950px;"> Nature Fairy Fanshion Doll </h4>
+                <img src="{% static '1719647676_youloveit_com_royale_high_chromae_the_ice_fairy_fashion_doll2.webp' %}" alt="" width="200px" height="200px" style="position: absolute; top: 1100px; left: 600px;">
+                <h4 style="font-family: Arial; position: absolute; top: 1290px; left: 610px;"> Ice Fairy Fashion Doll </h4>
+                <img src="{% static '1720851076_youloveit_com_royale_high_dark_fairy_doll3.jpg' %}" alt="" width="200px" height="200px"  style="position: absolute; top: 1100px; left: 950px;">
+                <h4 style="font-family: Arial; position: absolute; top: 1290px; left: 960px;"> Dark Fairy Fashion Doll </h4>
+            </div>
+    </div>
+    <div class="container-fluid">
+        <div class="box-8" style="background-color: rgb(146, 214, 77); width: 1340px; height: 100px;">
+            <h4 style="font-family: 'Times New Roman'; position: absolute; top: 1360px; right: 80px;"> Subscribe to our website to get update. </h4>
+            <h4 style="font-family: 'Times New Roman'; position: absolute; top: 1400px; left: 30px;"> copyright © all right reserved by Hsu Thet Hnyar. </h4>
+            <div class="box-9" style="background-color: aliceblue; width: 200px; height: 40px; position: absolute; top: 1405px; left: 1030px;"></div>
+            <a href="{% url 'Hello' %}"> <h4 style="font-family: 'Times New Roman'; position: absolute; top: 1395px; right: 180px;">Main Page</h4> </a>
+
+            <img src="{% static 'Depositphotos_676194222_XL-1-scaled.jpg' %}" class="rounded-circle" width="25px" height="25px"  style="position: absolute; top: 1380px; left: 100px;">
+            <img src="{% static 'facebook-social-media-icon-symbol-illustration-free-vector.jpg' %}" class="rounded-circle" width="25px" height="25px"  style="position: absolute; top: 1380px; left: 150px;">
+            <img src="{% static 'youtube-512.webp' %}" class="rounded-circle" width="25px" height="25px"  style="position: absolute; top: 1380px; left: 200px;">
+            <img src="{% static 'f7806c9cd7d5e52cbb148541327a6b87.jpg' %}" class="rounded-circle" width="25px" height="25px"  style="position: absolute; top: 1380px; left: 250px;">
+
+        </div>
+</body>
+</html>
